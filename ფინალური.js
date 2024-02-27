@@ -75,7 +75,7 @@
 
 // 2.3 სიტყვების გამოცნობა - Hangman
 
-// let myWordsArray = ["ძაღლი", "თევზი", "სპილო", "კენგოლი", "ბოთლი"]
+// let myWordsArray = ["ძაღლი", "თევზი", "სპილო", "კენგოლი", "ბოთლი", "ბურთი"]
 
 // function myRandomWord(){
 //     const i = Math.floor(Math.random()*myWordsArray.length);
