@@ -1,7 +1,7 @@
 // 2.1 კალკულატორი : 
 
-// let x = parseInt(prompt ("შემოიტანე პირველი რიცხვი"));
-// let y = parseInt(prompt ("შემოიტანე მეორე რიცხვი"));
+// let x = parseFloat(prompt ("შემოიტანე პირველი რიცხვი"));
+// let y = parseFloat(prompt ("შემოიტანე მეორე რიცხვი"));
 // let z = prompt ("აირჩიეთ რომელიმე ოპერაცია + - * / % ");
 
 // switch (z) {
@@ -11,14 +11,15 @@
 //     case "*" :
 //         z = x * y;
 //         break;
-//     case "/" :
-//         z = x / y;
-//         break;
 //     case "-" :
 //         z = x - y;
 //         break;
 //     case "%" :
 //         z = x % y;
+//         break;
+//     case "/" :
+//         if ( y === 0) { alert("0 ზე გაყოფა არ შეიძლება")}
+//         else{z = x / y;}
 //         break;
 // }
 
