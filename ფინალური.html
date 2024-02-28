@@ -8,9 +8,24 @@
 </head>
 <body>
     
+    <!-- ჰენგმენისთვის განკუთნილი ჰტმლ -->
     <!-- <button class="myButton" onclick="guessMyWord()">try it</button>  -->
 
-    <p class="text" id="demo"> </p>
+    <!-- <p class="text" id="demo"> </p> -->
+
+
+    <!-- ბანკომატისთვის განკუთვნილი ჰტმლ -->
+
+    <div class="container">
+        <h1>ბანკომატი</h1>
+        <div class="balanceDisplay">
+            <p>ბალანსი: <span id="balanceAmount">0</span> ლარი</p>
+        </div>
+        <button onclick="chechMyBalance()">ბალანსის შემოწმება</button>
+        <button onclick="inputOnMyDeposit()">თანხის შეტანა</button>
+        <button onclick="withdrawFromMyDeposit()">თანხის გატანა</button>
+    </div>
+
     <script src="ფინალური.js"></script>
 </body>
 </html>

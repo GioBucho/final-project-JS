@@ -1,3 +1,4 @@
+/* hangman ამოცანისთვის განკუთვნილი css
 *{
     margin: 0;
     padding: 0;
@@ -13,4 +14,48 @@
 
 .myButton {
     padding: 50px;
+} */
+
+
+/* ბანკომატისთვის განკუთვნილი css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+button {
+    background-color: gray;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.balanceDisplay {
+    margin-bottom: 20px;
+}
+
+#balanceAmount {
+    font-weight: bold;
+    font-size: 20px;
 }

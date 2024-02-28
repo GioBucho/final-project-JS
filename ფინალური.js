@@ -130,3 +130,37 @@
 //   return fistPart + letter + secondPart;
 // }
 
+
+// ბანკომატი
+
+let balance = 0;
+
+function chechMyBalance() {
+    alert(`თქვენ ანგარიშზე გაქვთ : ${balance} თანხა`)
+}
+
+function inputOnMyDeposit() {
+    let deposit = parseFloat(prompt("შეიყვანეთ შემოსატანი თანხის რაოდენობა : "))
+    if (!isNaN(deposit) && deposit > 0) {
+        balance += deposit;
+        myNewBalance();
+    }
+    else {
+        alert("შეიყვანეთ სწორი თანხის რაოდენობა");
+    }
+}
+
+function withdrawFromMyDeposit (){
+    let withdraw = parseFloat(prompt("შემოიტანე გასატანი თანხის რაოდენობა : "))
+    if (!isNaN(withdraw) && withdraw > 0 && withdraw < balance) {
+        balance -= withdraw;
+        myNewBalance();
+    }
+    else {
+        alert("შეიყვანეთ სწორი თანხის რაოდენობა");
+    }
+}
+
+function myNewBalance() {
+    document.getElementById("balanceAmount").innerHTML = balance;
+}
