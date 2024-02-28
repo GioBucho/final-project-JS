@@ -33,6 +33,8 @@
 
 //  const randomNumber = Math.floor(Math.random() * 51) + 50;
 
+//  console.log(randomNumber)
+
 //  let attempts = 5;
 //  let usedNumbers = [];
 
@@ -70,7 +72,7 @@
 //    }
 //  }
 
-//  checkGuess();
+//  guessUserNumber();
 
 
 // 2.3 სიტყვების გამოცნობა - Hangman
